@@ -10,6 +10,8 @@ namespace CSharpReview
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Test Yes");
+            Console.ReadKey();
         }
     }
 }
