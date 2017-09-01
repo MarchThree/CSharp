@@ -1,0 +1,45 @@
+					<div class="ddcard" style="position: relative;">
+						<div class="mui-card" style="padding: 15px;">
+							<img src="../img/baojie/vh.png" class="wjzhang" />
+							<div class="touxiang">
+								<img src="../img/index/3.png" />
+							</div>
+							<div class="touxiangleft">
+								<ul>
+									<li>胡先生</li>
+									<li>188****8888</li>
+								</ul>
+							</div>
+							<div class="touxiangright">
+								<i class="mui-icon mui-icon-star mui-icon-star-filled" style=""></i>
+								<i class="mui-icon mui-icon-star mui-icon-star-filled"></i>
+								<i class="mui-icon mui-icon-star mui-icon-star-filled"></i>
+								<i class="mui-icon mui-icon-star mui-icon-star-filled"></i>
+								<i class="mui-icon mui-icon-star"></i>
+							</div>
+						</div>
+						<div class="mui-card wjdd">
+							<ul>
+								<li>
+									<i class="iconfont icon-zhong"></i><span>今天14:30 工作时间约6小时</span>
+									<button class="btnpindan">愿意拼单</button>
+								</li>
+								<li>
+									<i class="iconfont icon-address"></i><span>湖州市吴兴区南院小区 23幢1单元202室</span>
+								</li>
+								<li>
+									<span>
+								<img src="../img/baojie/1.png"/>
+							</span> 湖州市吴兴区南院小区 23幢1单元202室湖州市吴兴区南院小区 23幢1单元202室湖州市吴兴区南院小区 23幢1单元202室
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<i style="font-size:30px;color: #FF9900;">200</i><i style="font-size: 20px;">元</i>
+								</li>
+								<li>
+									<button class="mui-btn active qiangdanbtn">查看详情</button>
+								</li>
+							</ul>
+						</div>
+					</div>

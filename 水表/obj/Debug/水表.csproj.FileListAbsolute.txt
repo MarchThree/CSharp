@@ -1,0 +1,9 @@
+D:\编程练习\CSharp\水表\bin\Debug\水表.exe.config
+D:\编程练习\CSharp\水表\bin\Debug\水表.exe
+D:\编程练习\CSharp\水表\bin\Debug\水表.pdb
+D:\编程练习\CSharp\水表\obj\Debug\水表.main.resources
+D:\编程练习\CSharp\水表\obj\Debug\水表.Properties.Resources.resources
+D:\编程练习\CSharp\水表\obj\Debug\水表.csproj.GenerateResource.Cache
+D:\编程练习\CSharp\水表\obj\Debug\水表.exe
+D:\编程练习\CSharp\水表\obj\Debug\水表.pdb
+D:\编程练习\CSharp\水表\obj\Debug\水表.csprojResolveAssemblyReference.cache

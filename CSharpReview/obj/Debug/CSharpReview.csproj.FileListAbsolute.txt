@@ -1,1 +1,6 @@
 D:\编程练习\CSharp\CSharpReview\bin\Debug\CSharpReview.exe.config
+D:\编程练习\CSharp\CSharpReview\bin\Debug\CSharpReview.exe
+D:\编程练习\CSharp\CSharpReview\bin\Debug\CSharpReview.pdb
+D:\编程练习\CSharp\CSharpReview\obj\Debug\CSharpReview.csprojResolveAssemblyReference.cache
+D:\编程练习\CSharp\CSharpReview\obj\Debug\CSharpReview.exe
+D:\编程练习\CSharp\CSharpReview\obj\Debug\CSharpReview.pdb

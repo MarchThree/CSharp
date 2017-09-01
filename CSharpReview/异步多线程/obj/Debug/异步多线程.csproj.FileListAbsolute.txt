@@ -1,0 +1,5 @@
+D:\编程练习\CSharp\CSharpReview\异步多线程\bin\Debug\异步多线程.exe.config
+D:\编程练习\CSharp\CSharpReview\异步多线程\bin\Debug\异步多线程.exe
+D:\编程练习\CSharp\CSharpReview\异步多线程\bin\Debug\异步多线程.pdb
+D:\编程练习\CSharp\CSharpReview\异步多线程\obj\Debug\异步多线程.exe
+D:\编程练习\CSharp\CSharpReview\异步多线程\obj\Debug\异步多线程.pdb

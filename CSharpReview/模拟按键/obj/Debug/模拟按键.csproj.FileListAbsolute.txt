@@ -1,0 +1,9 @@
+D:\编程练习\CSharp\CSharpReview\模拟按键\bin\Debug\模拟按键.exe.config
+D:\编程练习\CSharp\CSharpReview\模拟按键\bin\Debug\模拟按键.exe
+D:\编程练习\CSharp\CSharpReview\模拟按键\bin\Debug\模拟按键.pdb
+D:\编程练习\CSharp\CSharpReview\模拟按键\obj\Debug\模拟按键.csprojResolveAssemblyReference.cache
+D:\编程练习\CSharp\CSharpReview\模拟按键\obj\Debug\模拟按键.Form1.resources
+D:\编程练习\CSharp\CSharpReview\模拟按键\obj\Debug\模拟按键.Properties.Resources.resources
+D:\编程练习\CSharp\CSharpReview\模拟按键\obj\Debug\模拟按键.csproj.GenerateResource.Cache
+D:\编程练习\CSharp\CSharpReview\模拟按键\obj\Debug\模拟按键.exe
+D:\编程练习\CSharp\CSharpReview\模拟按键\obj\Debug\模拟按键.pdb

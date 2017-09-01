@@ -1,0 +1,5 @@
+D:\编程练习\CSharp\CSharpReview\winApi\bin\Debug\winApi.exe.config
+D:\编程练习\CSharp\CSharpReview\winApi\bin\Debug\winApi.exe
+D:\编程练习\CSharp\CSharpReview\winApi\bin\Debug\winApi.pdb
+D:\编程练习\CSharp\CSharpReview\winApi\obj\Debug\winApi.exe
+D:\编程练习\CSharp\CSharpReview\winApi\obj\Debug\winApi.pdb

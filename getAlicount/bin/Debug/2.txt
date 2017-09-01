@@ -1,0 +1,9 @@
+﻿System.Net.WebException: 操作超时
+   在 getAlicount.httphelper.getUrl() 位置 D:\编程练习\CSharp\getAlicount\httphelper.cs:行号 67
+   在 getAlicount.Program.Main(String[] args) 位置 D:\编程练习\CSharp\getAlicount\Program.cs:行号 23======================================2489======================================
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 向一个无法连接的网络尝试了一个套接字操作。 140.205.155.169:443
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 getAlicount.httphelper.getUrl() 位置 D:\编程练习\CSharp\getAlicount\httphelper.cs:行号 67
+   在 getAlicount.Program.Main(String[] args) 位置 D:\编程练习\CSharp\getAlicount\Program.cs:行号 23======================================5139======================================

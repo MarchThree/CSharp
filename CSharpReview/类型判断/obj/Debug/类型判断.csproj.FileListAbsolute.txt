@@ -1,0 +1,5 @@
+D:\编程练习\CSharp\CSharpReview\类型判断\bin\Debug\类型判断.exe.config
+D:\编程练习\CSharp\CSharpReview\类型判断\bin\Debug\类型判断.exe
+D:\编程练习\CSharp\CSharpReview\类型判断\bin\Debug\类型判断.pdb
+D:\编程练习\CSharp\CSharpReview\类型判断\obj\Debug\类型判断.exe
+D:\编程练习\CSharp\CSharpReview\类型判断\obj\Debug\类型判断.pdb

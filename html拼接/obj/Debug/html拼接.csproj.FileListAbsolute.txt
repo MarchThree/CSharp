@@ -1,0 +1,5 @@
+D:\编程练习\CSharp\html拼接\bin\Debug\html拼接.exe.config
+D:\编程练习\CSharp\html拼接\bin\Debug\html拼接.exe
+D:\编程练习\CSharp\html拼接\bin\Debug\html拼接.pdb
+D:\编程练习\CSharp\html拼接\obj\Debug\html拼接.exe
+D:\编程练习\CSharp\html拼接\obj\Debug\html拼接.pdb

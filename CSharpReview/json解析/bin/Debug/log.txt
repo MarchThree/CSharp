@@ -1,0 +1,3 @@
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 json解析.httphelper.postGetData(String data) 位置 D:\编程练习\CSharp\CSharpReview\json解析\httphelper.cs:行号 95harp\CSharpReview\json解析\httphelper.cs:行号 94

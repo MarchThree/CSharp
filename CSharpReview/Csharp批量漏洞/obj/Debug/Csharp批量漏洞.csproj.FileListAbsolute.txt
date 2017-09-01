@@ -1,0 +1,8 @@
+D:\编程练习\CSharp\CSharpReview\Csharp批量漏洞\bin\Debug\Csharp批量漏洞.exe.config
+D:\编程练习\CSharp\CSharpReview\Csharp批量漏洞\bin\Debug\Csharp批量漏洞.exe
+D:\编程练习\CSharp\CSharpReview\Csharp批量漏洞\bin\Debug\Csharp批量漏洞.pdb
+D:\编程练习\CSharp\CSharpReview\Csharp批量漏洞\obj\Debug\Csharp批量漏洞.Form1.resources
+D:\编程练习\CSharp\CSharpReview\Csharp批量漏洞\obj\Debug\Csharp批量漏洞.Properties.Resources.resources
+D:\编程练习\CSharp\CSharpReview\Csharp批量漏洞\obj\Debug\Csharp批量漏洞.csproj.GenerateResource.Cache
+D:\编程练习\CSharp\CSharpReview\Csharp批量漏洞\obj\Debug\Csharp批量漏洞.exe
+D:\编程练习\CSharp\CSharpReview\Csharp批量漏洞\obj\Debug\Csharp批量漏洞.pdb

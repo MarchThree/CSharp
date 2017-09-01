@@ -1,0 +1,804 @@
+﻿
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<!--<title> 补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC，库带计划 - 国内首个现金奖励漏洞平台</title>-->
+		<title>补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC，库带计划 - 国内首个现金奖励漏洞平台</title>
+		<meta name="keywords" content="漏洞响应平台,企业SRC,安全应急响应中心,漏洞收集,,漏洞悬赏,漏洞奖励,现金奖励,提交漏洞,安全事件,互联网安全事件,库带计划" />
+		<meta name="description" content="补天漏洞响应平台旨在建立企业与白帽子之间的桥梁，帮助企业建立SRC(安全应急响应中心)，让企业安全，让白帽子获益。" />
+		<link rel="stylesheet" type="text/css" href="/Public/css/base.css?v=10000">
+		<link rel="stylesheet" type="text/css" href="/Public/css/loopSetting.css">
+		<script type="text/javascript" src="/Public/js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="/Public/js/base.js"></script>
+		<script type="text/javascript" src="/Public/js/head.js?v=10000"></script>
+		<script type="text/javascript" src="/Public/js/messageBox.js"></script>
+		
+		<script language="JavaScript">
+            <!--
+            var URL = '/Home/Loo';
+            var APP = '';
+            var PUBLIC = '/Public';
+            var TPML = '/Public/admin/';
+            //-->
+        </script>
+	</head>
+
+	<body>
+		<div class="header header2">
+			<div class="headerBox">
+				<h1 class="logo"><a href="/" target="_blank"><img src="/Public/img/logo.png" alt='补天漏洞响应平台' /></a></h1>
+				<ul class="nav" >
+		          <li class=""><a href="/" target="_blank">首页</a></li>
+		          <li><a href="/Loo" target="_blank">漏洞认领</a></li>
+		          <li>
+		            <a href="/Service" target="_blank">企业服务</a>
+		            <ul class="subnav">
+		              <span class="subnavIcon"></span>
+		              <li><a href="/Service/pub" target="_blank">公益SRC</a></li>
+		              <li><a href="/Service/pri" target="_blank">专属SRC</a></li>
+		              <li><a href="/Service/ce" target="_blank">360众测</a></li>
+		            </ul>
+		          </li>
+		          <li>
+		            <a href="/Rank/whitehat" target="_blank">风云排行</a>
+		            <ul class="subnav">
+		              <span class="subnavIcon"></span>
+		              <li><a href="/Reward/rule" target="_blank">月度奖励</a></li>
+						<li><a href="/Reward/exp" target="_blank">奖励说明</a></li>
+		              <li><a href="/Rank/whitehat" target="_blank">风云白帽</a></li>
+		              <li><a href="/Rank/team" target="_blank">风云团队</a></li>
+
+		            </ul>
+		          </li>
+		          <li class="active">
+		            <a href="/Reward/plan" target="_blank">漏洞奖励</a>
+		            <ul class="subnav">
+		              <span class="subnavIcon"></span>
+		              <li><a href="/Reward/plan" target="_blank">专属SRC项目</a></li>
+		              <li><a href="/Reward/pub" target="_blank">公益SRC项目</a></li>
+		            
+					<!-- 	<li><a href="/Help/plan">漏洞奖励计划</a></li> -->
+						<!--<li><a href="/Shop">积分商城</a></li>-->
+		            </ul>
+		          </li>
+					<li><a href="/Shop" target="_blank">补天商城</a></li>
+		          <li>
+		            <a href="#@">合作协同</a>
+		            <ul class="subnav">
+		              <span class="subnavIcon"></span>
+	              	  <li><a href="/whc" target="_blank">白帽大会</a></li>
+		              <li><a href="/Help/faq" target="_blank">帮助中心</a></li>
+		              <li><a href="/Help/law" target="_blank">法援中心</a></li>
+		              <li><a href="/Help/hezuo" target="_blank">合作中心</a></li>
+		              <li><a href="/srcNav" target="_blank">SRC导航</a></li>
+		            </ul>
+		          </li>
+		           <li>
+		            <a href="/Article/index" target="_blank">公告中心</a>
+		          </li>
+		        </ul>
+				<ul class="navTools">
+											<li><a href="/Loo/submit" class="btn btn-blue">提交漏洞</a></li>						<li>
+							<a href="/Message" class="btnMessage">
+														</a>
+						</li>
+						<li class="navNameOut">
+							<a href="#@" class="navtoolsName">我的未来我亲手打败</a>
+							<div class="loginSeting" style="display:none">
+								<p><img src="/Public/img/settingicon.png" />
+									<span>
+																		<a href="/WhiteHat/Center" style="color: #888;" target="_blank">
+									个人空间									</a></span>
+									</p>
+									<p><img src="/Public/img/settingicon.png" /><span>
+																		<a href="/WhiteHat/Center/base" style="color: #888;" target="_blank">									账户设置</a></span>
+									</p>
+																<p><img src="/Public/img/tuichuicon.png" /><span><a href="/Login/logout" style="color: #888;">退出系统</a></span></p>
+							</div>
+						</li>
+									</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('.nav > li a').on('click',function(){
+				console.log($('.nav > li a'))
+				if(!$(this).hasClass('on')){
+					$(this).addClass('on');
+		    		$('.nav > li a').removeClass('on');
+				}
+			})
+		</script>
+<script type="text/javascript" src="/Public/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="/Public/ueditor/ueditor.all.js"></script>
+	<link rel="stylesheet" type="text/css" href="/Public/css/loop.css">
+	<style type="text/css">
+		#cname_tips,#host_tips,#title_tips,#url_tips,#attribute_tips,#type_tips,#level_tips,#description_tips,#detail_tips,#repair_suggest_tips,#verify_tips{
+			 color: #ff9900;
+		    display: inline;
+		    margin-left: 10px;
+		    width: 306px;
+		}
+		.error{    color: red;
+    text-align: left !important;
+    margin-top: 7px;
+    font-size: 13px;}
+   .tijao {
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    margin-top: 16px;
+    margin-left: -11px;
+    clear: both;
+    height: 46px;
+    line-height: 42px;
+    width: 129px;
+}
+.tijao:hover{
+	background: #024c84;
+}
+	</style>
+	<div class="boxContent">
+		<div class="boxRight">
+			<div class="rightIconBox">
+				<h2><span>漏洞定义</span></h2>
+				<div class="rightBoxCon">
+					<ul class="loopAward">
+						<li>通用漏洞：第三方软件、应用、系统对应的漏洞。如ECShop、Discuz、PHPCMS的SQL注入，XSS漏洞。</li>
+						<li>事件漏洞：即非通用型漏洞，主要是指互联网上应用的一个具体漏洞，xx网站命令执行可被渗透，xx电商订单泄漏任意充值等等 。</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="rightIconBox">
+				<h2><span>事件漏洞奖励标准</span></h2>
+				<div class="rightBoxCon">
+					<ul class="loopJiangli">
+						<li>
+							<p>1、低危漏洞</p>
+							<p class="red">小型厂商 1-3 库币</p>
+							<p class="red">中型厂商 2-6 库币</p>
+							<p class="red">大型厂商 3-10 库币</p>
+						</li>
+						<li>
+							<p>2、中危漏洞</p>
+							<p class="red">小型厂商 2-5 库币</p>
+							<p class="red">中型厂商 3-12 库币</p>
+							<p class="red">大型厂商 10-30 库币 或 ¥100 -¥500</p>
+						</li>
+						<li>
+							<p>3、高危漏洞</p>
+							<p class="red">小型厂商 4-20 库币 或 ¥100 -¥200</p>
+							<p class="red">中型厂商 6-25 库币 或 ¥100 - ¥1000</p>
+							<p class="red"> 大型厂商 ¥100 - ¥2000</p>
+						</li>
+						<li>
+							<p>4、更多详情请见：<a href="/Help/plan" target="_blank">补天奖励计划</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		<div class="rightIconBox">
+		  <h2><span>通用漏洞奖励标准</span></h2>
+		  <div class="rightBoxCon">
+			<ul class="loopJiangli">
+			  <li>
+				<p>1、低危漏洞</p>
+				<p class="red">￥200-￥800</p>
+			  </li>
+			  <li>
+				<p>2、中危漏洞</p>
+				<p class="red">￥800-￥3000</p>
+			  </li>
+			  <li>
+				<p>3、高危漏洞</p>
+				<p class="red">￥3000-￥10000</p>
+			  </li>
+			  <li>
+				<p>4、更多详情请见：<a href="/Help/plan" target="_blank">补天奖励计划</a></p>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <style type="text/css">
+		.input-xxlarge{overflow: hidden;}
+		.loopSubmit li var{float: left;line-height: 30px;margin-right:5px;}
+		.comTestArea{display: none;}
+		.loopSubmit .isRepeat{color: #fa0000}
+		.loopSubmit .noMust:before{display: none;}
+		.loopSubmit li p{padding-right:50px;overflow:hidden;}
+		.loopSubmit li label input[type='radio']{margin-right:5px;}
+		.loopSubmit li var{margin-right:10px;}
+	  </style>
+	  <form action="/Home/Loo/submit" method="post">
+	  <input type="hidden" name="id" value="">
+	  <input type="hidden" name="token" value="86a7b65cd1de9db3439e9dc30c75a367c6476634">
+	  <input type="hidden" name="company_id" value="">
+	  <div class="boxCon">
+		<h2 class="boxConTitle"><span>提交漏洞</span></h2>
+		<ul class="loopSubmit">
+		  <li><span>厂商名称：</span><input type="text" name="company_name" id="inputCompy" placeholder="请输入厂商名称" value="物美" />
+		  <span id="cname_tips"></span>
+		  <div id="company-listdiv" class="companySerach" style="display: none;height:auto;max-height:300px;">
+				<ul id="company-ul">
+				</ul>
+				<ul>
+			   <a href="javascript:void(0)" onclick="closecomlist()" style="position:absolute;top:5px;right:5px;">关闭</a>
+			  </ul>
+		  </div> 
+		  </li>
+		  <li class="comTestArea"><span>厂商测试范围：</span><var>无限制</var></li>
+		  <li><span>所属域名：</span><input type="text" name="host" placeholder="请输入厂商域名" value="www.wumart.com" />
+		  <span id="host_tips"></span>
+		  </li>
+		  <li class="line"></li>
+		  <li><span>漏洞标题：</span><input type="text" id="title" name="title" placeholder="请输入漏洞名称" value="" /><var class="isRepeat"></var>
+		  <span id="title_tips"></span>
+		  </li>
+		  <li><span>漏洞URL：</span>
+		  			<input type="text" name="url[]" value="" placeholder="URL格式：以http://或https://开头" />
+			<span id="url_tips"></span>		  </li>
+		  <li class="addInput">
+			<!-- <p><input type="" name="url[]" placeholder="URL格式：以http://或https://开头" /></p> -->
+			<div class="addInputCon">
+			  
+			</div>
+			<p><a href="#@" class="addInpuus">+添加URL</a></p>
+		  </li>
+		  <li>
+			<span>漏洞类型：</span>
+			<select name="attribute">
+			  <option value="1" >事件型</option><option value="0" >通用型</option>			</select>
+			<span id="attribute_tips"></span>
+			<select class="sel2" name="type">
+			  <option value="">请选择</option>
+			  <option value="1" >XSS</option><option value="1993" >智能硬件</option><option value="67" >弱口令</option><option value="66" >入侵事件</option><option value="65" >疑似被黑</option><option value="28" >文件上传</option><option value="10" >信息泄露</option><option value="9" >存在后门</option><option value="8" >逻辑</option><option value="7" >权限绕过</option><option value="6" >任意文件操作</option><option value="5" >文件包含</option><option value="4" >代码执行</option><option value="3" >命令执行</option><option value="2" >SQL注入</option><option value="3002" >解析漏洞</option>			</select>
+			<span id="type_tips"></span>
+		  </li>
+		  <div id="detail2"></div>
+		  <li><span>漏洞等级：</span>
+			<select class="sel" name="level">
+			  <option value="2" >高危</option><option value="1" >中危</option><option value="0" >低危</option>			</select>
+			<span id="level_tips"></span>
+		  </li>
+		  <li class="line"></li>
+
+		  <li><span>简要描述：</span>
+		  <textarea name="description" id="description" class="input-xxlarge" rows="5"></textarea>
+		  <span id="description_tips"></span>
+		  </li>
+		  <li class="line"></li>
+		  <li><span>详细细节：</span> 
+		  <script  name="detail" id="detail" class="input-xxlarge" rows="5" >			  </script>
+              <span id="detail_tips"></span>
+			<script type="text/javascript">
+				$(function(){
+				  UE.getEditor('detail', {
+					toolbars: [
+						['fullscreen', 'undo', 'redo', 'bold','simpleupload','insertimage','insertcode']
+					  ]
+					}
+				  );
+				  setTimeout(function(){
+					$('.edui-editor').css('width',760+'px')
+					$('.edui-editor-iframeholder').css('width',760+'px')
+					$('.edui-popup-content').css('height',145+'px')
+				  },600)
+				})
+			</script>
+			</li>
+		  <li class="line"></li>
+		  <li ><span>修复方案：</span>
+		  <textarea name="repair_suggest" id="repair_suggest" class="input-xxlarge" rows="5"/></textarea>
+		  <span id="repair_suggest_tips"></span>
+		  </li>
+		  <li class="line"></li>
+		  <li class="noMust"><span>所属行业：</span>
+		  <p>
+			<label style="float:left;"><input type="checkbox"  name="industry[]"  value="政府部门"/><var>政府部门</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="公用事业/服务"/><var>公用事业/服务</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="工业制造"/><var>工业制造</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="工程建设"/><var>工程建设</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="应急响应"/><var>应急响应</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="水利"/><var>水利</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="食品和农业"/><var>食品和农业</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="生活服务"/><var>生活服务</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="社会保障"/><var>社会保障</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="批发零售"/><var>批发零售</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="媒体"/><var>媒体</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="国防"/><var>国防</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="化学工业"/><var>化学工业</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="能源"/><var>能源</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="金融"/><var>金融</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="事业单位"/><var>事业单位</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="公检法"/><var>公检法</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="互联网"/><var>互联网</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="IT信息技术"/><var>IT信息技术</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="制造业"/><var>制造业</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="教育培训"/><var>教育培训</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="医疗卫生"/><var>医疗卫生</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="科研机构"/><var>科研机构</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="交通运输"/><var>交通运输</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="电信运营商"/><var>电信运营商</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="协会团体"/><var>协会团体</var></label><label style="float:left;"><input type="checkbox"  name="industry[]"  value="其他"/><var>其他</var></label>			</p>
+		  </li>
+		  <li class="noMust">
+			<span>所属地区：</span>
+			<select class="sel1" id="selec1" name="province">
+			</select>
+			<select class="sel1" id="selec2" name="city">
+			</select>
+			<select class="sel1" id="selec3" name="county">
+			</select>
+		  </li>
+		  <li class="noMust"><span>厂商联系方式：</span><input type="text" name="company_contact" placeholder="厂商联系方式" value="" /></li>
+		  <li class="addInput addInput2">
+			<p><input type="checkbox" name="anonymous" value="0"  checked="checked"><a href="#@" style="cursor:default;">匿名提交</a>（平台不会公开白帽子细节，显示为“带头大哥"）</p>
+			<p><input type="checkbox" name="agree" value="1" checked="">我同意<a href="/Article/content/id/142" target="_blank">《补天漏洞响应平台白帽子保密协议》</a></p>
+		  </li>
+		  <li class="noMust">
+			  <span>验证码：</span>
+			  <div class="l-captcha" data-site-key="7dbe8d41bad47fda61d301ae6eec4292" style="float: left;padding-top: 5px;"></div>
+			 <!--  <input type="text" name="verify" placeholder="提交前请输入验证码" style="width: 132px;" />
+			  <img id="verifyImg" SRC="/Home/Loo/verify/t=0" onClick="this.src += 1" BORDER="0" ALT="点击刷新验证码" style="cursor:pointer;vertical-align: middle;" />
+			  <span id="verify_tips"></span> -->
+		  </li>
+		</ul>
+		<div class="loopSubBtn">
+		  
+		  <input type="button" name="" class="btn btn-blue tijao" value="提交漏洞">
+		  <!-- <a href="#@">预览</a> -->
+		  <div class="error" ></div>
+		</div>
+	  </div>
+	  </form>
+	</div>
+<div class="token_val" t_data="86a7b65cd1de9db3439e9dc30c75a367c6476634" style="display: none"></div>
+	<script type="text/javascript" src="/Public/js/jsAddress.js"></script>
+	<script type="text/javascript" src="/Public/js/messageBox.js"></script>
+	<script src="//captcha.luosimao.com/static/js/api.js"></script>
+	<script type="text/javascript">
+	/*提交检测*/
+	$('.tijao').click(function(){
+	  var form = $(this).parents('form')
+	  form.unbind();
+		var company_name = $.trim($('input[name="company_name"]').val())
+		if(company_name == ''){
+		  $('#cname_tips').html('厂商名不能为空哦~');
+		  $('input[name="company_name"]').focus();
+		  return false;
+		}else{
+			$('#cname_tips').html('');
+		}
+		var host = $.trim($('input[name="host"]').val())
+		if(host == ''){
+		  $('#host_tips').html('所属域名不能为空哦~');
+		  $('input[name="host"]').focus();
+		  return false;
+		}else{
+			
+			$('#host_tips').html('');
+			
+		}
+		var title = $.trim($('input[name="title"]').val())
+		if(title == ''){
+		  $('#title_tips').html('漏洞名称不能为空哦~');
+		  $('input[name="title"]').focus();
+		  return false;
+		}else{
+			$('#title_tips').html('');
+		}
+		var url = $.trim($('input[name="url[]"]').val())
+		if(url == ''){
+		  $('#url_tips').html('漏洞URL不能为空哦~');
+		  $('input[name="url[]"]').focus();
+		  return false;
+		}else{
+			var url = [];
+			$('input[name="url[]"]').each(function(i,elm){
+				if($(elm).val() != ''){
+					url.push($(elm).val())
+				}
+			})
+			$('#url_tips').html('');
+		}
+		var industry = [];
+		$('input[name="industry[]"]:checked').each(function(){
+			industry.push($(this).val());
+		})
+		var attribute = $.trim($('select[name="attribute"]').val())
+		if(attribute == ''){
+		  $('#attribute_tips').html('漏洞类型不能为空哦~');
+		  $('select[name="attribute"]').focus();
+		  return false;
+		}else{
+			$('#attribute_tips').html('');
+		}
+		var type = $.trim($('select[name="type"]').val())
+		if(type == ''){
+		  $('#type_tips').html('漏洞类型不能为空哦~');
+		  $('select[name="type"]').focus();
+		  return false;
+		}else{
+			$('#type_tips').html('');
+		}
+		var level = $.trim($('select[name="level"]').val())
+		if(level == ''){
+		  $('#level_tips').html('漏洞等级不能为空哦~');
+		  $('select[name="level"]').focus();
+		  return false;
+		}else{
+			$('#level_tips').html('');
+		}
+		var description = $.trim($('textarea[name="description"]').val())
+		if(description == ''){
+		  $('#description_tips').html('简要描述不能为空哦~');
+		  $('textarea[name="description"]').focus();
+		  return false;
+		}else{
+			if (description.length > 10000 || description.length <10) {
+				$('#description_tips').html('漏洞描述必须在10-10000之间！');
+				$('textarea[name="description"]').focus();
+				return false;
+			}else{
+				$('#description_tips').html('');
+			}
+		}
+		var detail = $.trim($('textarea[name="detail"]').val())
+		if(detail == ''){
+		  $('#detail_tips').html('详细细节不能为空哦~');
+		  $(window).scrollTop($("#detail").offset().top);
+		  return false;
+		}else{
+			if (detail.length > 65535 || detail.length <10) {
+				$('#detail_tips').html('漏洞细节必须在10-65535之间！');
+				$('#detail2').focus();
+				return false;
+			}else{
+				$('#detail_tips').html('');
+			}
+		}
+		var repair_suggest = $.trim($('textarea[name="repair_suggest"]').val())
+		if(repair_suggest == ''){
+		  $('#repair_suggest_tips').html('修复方案不能为空哦~');
+		  $('textarea[name="repair_suggest"]').focus();
+		  return false;
+		}else{
+			if (repair_suggest.length > 10000 || repair_suggest.length <10) {
+				$('#repair_suggest_tips').html('修复方案必须在10-10000之间！');
+				$('textarea[name="repair_suggest"]').focus();
+				return false;
+			}else{
+				$('#repair_suggest_tips').html('');
+			}
+		}
+		// var verify = $.trim($('input[name="verify"]').val())
+		// if(verify == ''){
+		//   $('#verify_tips').html('验证码不能为空哦~');
+		//   $('input[name="verify"]').focus();
+		//   return false;
+		// }else{
+		// 	$('#verify_tips').html('');
+		// }
+		
+		var province = $.trim($('select[name="province"]').val());
+		var city = $.trim($('select[name="city"]').val());
+		var county = $.trim($('select[name="county"]').val());
+		var disclosure = $.trim($('select[name="disclosure"]').val());
+		var affect_data = $.trim($('input[name="affect_data"]').val());
+		var company_contact = $.trim($('input[name="company_contact"]').val());
+		var anonymous = $.trim($('input[name="anonymous"]').val());
+		var agree = $.trim($('input[name="agree"]').val());
+		var id = $.trim($('input[name="id"]').val());
+		var verify = $.trim($('input[name="luotest_response"]').val());
+		if($('input[name="anonymous"]').is(':checked')) {
+			anonymous = 0;
+		}else{
+			anonymous = 1;
+		}
+	  	$.ajax({   
+		  url : "/Home/Loo/submit",
+		  type: 'POST',
+		  dataType:  'json',
+		  data:{'title':title,'company_name':company_name,'host':host,'url':url,'attribute':attribute,'level':level,'type':type,'description':description,'detail':detail,'repair_suggest':repair_suggest,'industry':industry,'province':province,'city':city,'county':county,'disclosure':disclosure,'affect_data':affect_data,'company_contact':company_contact,'anonymous':anonymous,'agree':agree,'id':id,'luotest_response':verify},
+		  success: function(data){
+              LUOCAPTCHA.reset();
+              if (data.status == 1) {
+		  	  		MessageBox.Show('系统提示',{'esp':'esp','width':300,'height':100,'htmls':'漏洞提交成功啦！请耐心等待审核'},true,1,funshow)
+					function funshow(){
+					   location.href = "/Home/Loo/detail/"+data.data;
+					}
+				 	$('.error').hide();
+		  	  }else{
+		  	   	$('.error').html(data.info).show();
+		  	  }
+		  }
+		});
+	})
+	/*添加url*/
+	var addid = 0;
+	$('.addInpuus').click(function(){
+	  var html=$('<p><input type="" name="url[]" placeholder="URL格式：以http://或https://开头" /><a href="javascript:thisRemove('+ addid +');" id="adId'+ addid +'" style="margin:0 5px;">删除</a></p>');
+	  $('.addInputCon').append(html)
+	  addid++
+	})
+	window.thisRemove = function(obj){
+	  $('#adId'+obj).parent().remove();
+	}
+	  var province="";
+	  var city="";
+	  var county="";
+		addressInit('selec1', 'selec2', 'selec3', province, city, county);
+	/*检测是否重名*/
+	$('#title').blur(function(){
+        var token = $(".token_val").attr('t_data')
+	  var lopName = $('#title').val();
+	  if(lopName != ''){
+		$.ajax({    
+		  url : "/Home/Loo/isRepeat",
+		  type: 'POST',
+		  dataType:  'json',
+		  data:{'title':lopName,"token":token},
+		  success: function(data){
+              var token = data.data.token;
+              $(".token_val").attr('t_data', token)
+              $('input[name="token"]').val(token)
+			if(data.status == 1){
+			  $('.isRepeat').html('&nbsp;&nbsp;漏洞名称可用').css('color','#666')
+			}else if(data.status == 2){
+			MessageBox.Show('系统提示',{'esp':'esp','width':300,'height':100,'htmls':'状态变化，需要刷新页面'},true)
+		  }else{
+			   $('.isRepeat').html('&nbsp;&nbsp;漏洞名称不可用').css('color','#ff0000')
+			}
+		  }
+		});
+	  }
+	})
+	/*检测测试范围*/
+	$('#inputCompy').on('blur',function(){
+		$(this).removeAttr('autocomplete');
+		jianArea()
+		
+	  })
+	$(document).click(function(){closecomlist()})
+	$('#inputCompy').on('focus',function(){
+	  $(this).attr('autocomplete','off');
+	  var company = $.trim($("#inputCompy").val());
+		if(company != ''){
+		  loadcompany(company)
+		}else{
+		  closecomlist()
+		}
+	})
+	function jianArea(){
+        var token = $(".token_val").attr('t_data')
+		var comName = $('#inputCompy').val();
+		if(comName != ''){
+			$.ajax({    
+				url : "/Home/Loo/getTestRange",
+				type: 'POST',
+				dataType:  'json',
+				data:{'company_name':comName,"token":token},
+				success: function(data){
+                    var token = data.data.token;
+                    $(".token_val").attr('t_data', token)
+                    $('input[name="token"]').val(token)
+					if(data.status == '1'){
+						$('.comTestArea').show();
+						$('.comTestArea var').html(data.data.data);
+					}else if(data.status == 2){
+						MessageBox.Show('系统提示',{'esp':'esp','width':300,'height':100,'htmls':'状态变化，需要刷新页面'},true);
+					}else{
+						$('.comTestArea').show();
+						$('.comTestArea var').html('无限制');
+					}
+				}
+			});
+		}
+	}
+
+	//获取厂商列表
+	var timer = null;
+	$("#inputCompy").bind("keyup",function(){
+	  timer = setTimeout(function(){
+		var company = $.trim($("#inputCompy").val());
+		if(company != ''){
+		  loadcompany(company)
+		}else{
+		  closecomlist()
+		}
+	  },300)
+	})
+	$("#inputCompy").bind("keydown",function(){
+	  clearTimeout(timer)
+	})
+	function loadcompany(company){
+        var token = $(".token_val").attr('t_data')
+	  $.ajax({    
+		  url : "/Home/Loo/getCompanyList",
+		  type: 'POST',
+		  dataType:  'json',
+		  data:{"token":token,'company_name':company},
+		  success: function(data){
+              var token = data.data.token;
+              $(".token_val").attr('t_data', token)
+              $('input[name="token"]').val(token)
+			if(data.status == '1'){
+				var comList=data.data;
+				SearchComList(comList)
+			}else if(data.status == 2){
+			MessageBox.Show('系统提示',{'esp':'esp','width':300,'height':100,'htmls':'状态变化，需要刷新页面'},true)
+		  }else{
+			  MessageBox.Show('系统提示',{'esp':'esp','width':300,'height':100,'htmls':data.info},true,1)
+			}
+		  },
+		  error:function(data){
+			console.log('error');
+			console.log(data);
+		  }
+		});
+  }
+  function closecomlist(){
+	$('.companySerach').hide();
+  }
+  function SearchComList(comList){
+	if(comList.length == 0){
+	  $('.companySerach').hide();
+	  return false;
+	}
+	$("#company-ul").html("");
+	$('.companySerach').show()
+	for(var i=0;i<comList.length;i++){
+	  console.log(i)
+	  var liObj=document.createElement("p");
+	  $(liObj).attr("title",comList[i].company2);
+	  $(liObj).html(comList[i].company);
+	  $(liObj).hover(function(){
+		$(this).css("background","#ccc");
+	  },function(){
+		$(this).css("background","none");
+	  });
+	  $(liObj).click(function(){
+		$("#inputCompy").val($(this).attr("title"));
+		jianArea()
+		$('.companySerach').hide();
+		closecomlist();
+
+	  });
+	  $("#company-ul").append(liObj);
+  }
+}
+  function getTestRange(comName){
+      var token = $(".token_val").attr('t_data')
+	$.ajax({
+	  url : "/Index/getTestRange.html",
+	  type: 'POST',
+	  dataType: "json",
+	  async:false,
+	  data:{'company_name':comName,"token":token},
+	  success: function(data){
+          var token = data.data.token;
+          $(".token_val").attr('t_data', token)
+          $('input[name="token"]').val(token)
+		if(data.code==0 && data.data.testrange != null){
+		  $('#result_info').show();
+		  $('#result_testrange').show();
+		  $('#result_testrange').text(data.data.testrange);
+
+		}else if(data.status == 2){
+			MessageBox.Show('系统提示',{'esp':'esp','width':300,'height':100,'htmls':'状态变化，需要刷新页面'},true)
+		  } else {
+		  $('#result_info').hide();
+		  $('#result_testrange').hide();
+		}
+	  }
+
+  });
+}
+	function verifyImg()
+	{
+		//	同步添加token刷新
+        $.get("/Loo/getToken", function(token){
+            $(".token_val").attr('t_data', token)
+            $('input[name="token"]').val(token)
+        });
+	}
+	window.onload = verifyImg;
+
+    var comName = $('#inputCompy').val();
+    if(comName != ''){
+        jianArea();
+	}
+	</script>
+
+    <div class="footer">
+      <div class="footerBox">
+        <dl class="">
+          <dt>客户服务</dt>
+          <dd><a href="/Service/pri">专属SRC</a></dd>
+          <dd><a href="https://zhongce.360.cn" target="_blank">安全众测</a></dd>
+          <dd><a href="/Service">更多服务</a></dd>
+           <dd><a href="/Help/plan">奖励方案</a></dd>
+          <dd><a href="/Help/response">漏洞响应向导</a></dd>
+          <dd><a href="/Help/role">白帽子行为规范</a></dd>
+        </dl>
+        <dl>
+          <dt>关注补天</dt>
+          <dd><a href="http://www.weibo.com/u/1915533737" target="_blank">官方微博</a></dd>
+          <dd><a href="javascript:void(0);">补天服务号</a></dd>
+          <dd><img src="/Public/img/erweima.gif"></dd>
+        </dl>
+        <dl>
+          <dt>商务合作</dt>
+          <dd><span>电话：010-52447969</span></dd>
+          <dd><span style="padding-left:21px;">&nbsp&nbsp&nbsp&nbsp  010-52447764</span></dd>
+          <dd><span><img src="http://p0.qhimg.com/t014a27a0ffece1ae8d.png" /></span></dd>
+        </dl>
+        <dl>
+          <dt>技术支持</dt>
+          <dd><span>电话：010-52447964</span></dd>
+          <dd style="height:22px;"><span><img style="margin-top:2px;" src="http://p0.qhimg.com/t01991259d3cb0df27b.png" /></span></dd>
+          <!-- <dd><span><img style="margin-left:42px;" src="http://p0.qhimg.com/t019c13f750d20d6d61.png" /></span></dd> -->
+        </dl>
+        <dl>
+          <dt>注册热线</dt>
+          <dd><span>企业咨询：010-52447584</span></dd>
+          <dd><span>白帽咨询：010-52448521</span></dd>
+          <dd><span><img src="http://p0.qhimg.com/t014a27a0ffece1ae8d.png" /></span></dd>
+        </dl>
+        <div class="footerBoxList">
+          <p><a href="https://zhongce.360.cn" target="_blank">360众测</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://b.360.cn/" target="_blank">360企业安全</a></p>
+          <p>Copyright©2005-2017 补天 京ICP备08010314号</p>
+        </div>
+      </div>
+    </div>
+    <div class="fixRight">
+      <ul>
+        <li><a href="javascript:void(0);" class="erweima">
+            <div class="erweima2Box"><img src="/Public/img/erweima2.jpg"></div>
+        </a></li>
+        <li><a href="javascript:void(0);" class="yijianfankui"></a></li>
+        <li><a href="javascript:void(0);" class="returntop" style="display:none;"></a></li>
+      </ul>
+    </div>
+<script type="text/javascript" src="/Public/js/messageBox.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        /*意见反馈*/
+      $('.yijianfankui').click(function(){
+        var touid = $(this).attr('touid')
+        var htmls = '<div class="inputOut"><span>意见反馈：</span><textarea id="messageCon" style="width:460px;height:150px;"></textarea></div><div class="inputOut"><span>验证码：</span><input id="messageYz" style="width:100px" /><img id="verifyImg" src="/Message/verify/t=0" onclick="this.src += 1" border="0" alt="点击刷新验证码" style="cursor:pointer;vertical-align: middle;"/></div><div class="error"></div>'
+        MessageBox.Show('意见反馈',{'width':520,'height':360,'htmls':htmls},true,2,saveCname)
+        function saveCname(){
+          var alias = $('#messageCon').val();
+          var verify = $('#messageYz').val();
+          if(alias.length>120){
+            $(".error").html('反馈不能超过120个字符')
+            return false;
+          }
+          if(alias != ''){
+            $.ajax({
+            url : "/Message/send",
+            type: 'POST',
+            dataType:  'json',
+            data:{"to_uid":touid,"content":alias,"type":2,'verify':verify},
+            success: function(data){
+              if (data.status == 1) {
+                MessageBox.Show('意见反馈',{'esp':'esp','width':300,'height':100,'htmls':'你的意见已经收到，谢谢反馈！'},true)
+              } else {
+                $(".error").html(data.info)
+                $('#verifyImg').attr('src',$('#verifyImg').attr('src')+1)
+              }
+            }
+          });
+          }else{
+            $(".error").html('内容不能为空')
+          }
+          
+        }
+      })
+        /*返回顶部*/
+        $('.returntop').click(function(){
+          $(document).scrollTop(0)
+        })
+         $(window).scroll(function () {
+            if($(document).scrollTop() == 0){
+              $('.returntop').hide()
+            }else{
+              $('.returntop').show()
+            }
+         })
+      })
+      function goPage(){ 
+        var url = location.href;
+        var page = $('#goPage').val();
+        if(url.indexOf("/p/") > 0){
+          var reger = new RegExp("(/p/[0-9]*)");
+          location.href = url.replace(reger, "/p/"+page);
+        }else{
+          location.href = location.href + "/index/p/" + page ;
+        }
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+System.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 getAlicount.httphelper.getUrl() 位置 D:\编程练习\CSharp\getAlicount\httphelper.cs:行号 56nt.httphelper.getUrl() 位置 D:\编程练习\CSharp\getAlicount\httphelper.cs:行号 54

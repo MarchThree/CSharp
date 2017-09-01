@@ -1,0 +1,9 @@
+D:\编程练习\CSharp\CSharpReview\正则表达式\bin\Debug\正则表达式.exe.config
+D:\编程练习\CSharp\CSharpReview\正则表达式\bin\Debug\正则表达式.exe
+D:\编程练习\CSharp\CSharpReview\正则表达式\bin\Debug\正则表达式.pdb
+D:\编程练习\CSharp\CSharpReview\正则表达式\obj\Debug\正则表达式.Form1.resources
+D:\编程练习\CSharp\CSharpReview\正则表达式\obj\Debug\正则表达式.Properties.Resources.resources
+D:\编程练习\CSharp\CSharpReview\正则表达式\obj\Debug\正则表达式.csproj.GenerateResource.Cache
+D:\编程练习\CSharp\CSharpReview\正则表达式\obj\Debug\正则表达式.exe
+D:\编程练习\CSharp\CSharpReview\正则表达式\obj\Debug\正则表达式.pdb
+D:\编程练习\CSharp\CSharpReview\正则表达式\obj\Debug\正则表达式.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+D:\编程练习\CSharp\补天公益src列表获取\bin\Debug\补天公益src列表获取.exe.config
+D:\编程练习\CSharp\补天公益src列表获取\bin\Debug\补天公益src列表获取.exe
+D:\编程练习\CSharp\补天公益src列表获取\bin\Debug\补天公益src列表获取.pdb
+D:\编程练习\CSharp\补天公益src列表获取\obj\Debug\补天公益src列表获取.Form1.resources
+D:\编程练习\CSharp\补天公益src列表获取\obj\Debug\补天公益src列表获取.Properties.Resources.resources
+D:\编程练习\CSharp\补天公益src列表获取\obj\Debug\补天公益src列表获取.csproj.GenerateResource.Cache
+D:\编程练习\CSharp\补天公益src列表获取\obj\Debug\补天公益src列表获取.exe
+D:\编程练习\CSharp\补天公益src列表获取\obj\Debug\补天公益src列表获取.pdb

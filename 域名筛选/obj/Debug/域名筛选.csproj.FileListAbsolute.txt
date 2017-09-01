@@ -1,0 +1,9 @@
+D:\编程练习\CSharp\域名筛选\bin\Debug\域名筛选.exe.config
+D:\编程练习\CSharp\域名筛选\bin\Debug\域名筛选.exe
+D:\编程练习\CSharp\域名筛选\bin\Debug\域名筛选.pdb
+D:\编程练习\CSharp\域名筛选\obj\Debug\域名筛选.csprojResolveAssemblyReference.cache
+D:\编程练习\CSharp\域名筛选\obj\Debug\域名筛选.Form1.resources
+D:\编程练习\CSharp\域名筛选\obj\Debug\域名筛选.Properties.Resources.resources
+D:\编程练习\CSharp\域名筛选\obj\Debug\域名筛选.csproj.GenerateResource.Cache
+D:\编程练习\CSharp\域名筛选\obj\Debug\域名筛选.exe
+D:\编程练习\CSharp\域名筛选\obj\Debug\域名筛选.pdb
